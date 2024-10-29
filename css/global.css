@@ -1,38 +1,27 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <style>
-        body {
-            background-color: beige;
-        }
-        h2 {
-            color: black;
-            text-align: center;
-        }
+form {
+    text-align: center;
+}
 
-        p{
-            color: black;
-            text-align: center;
-            font-size: larger;
-        }
-        </style>
-    </head>
-    <body>
-        <h2> Login </h2>    
+p {
+    margin: 10px 0;
+}
 
-        <p><label for="usuariopessoa">Usuário:</label>
-        <input name="usuariopessoa" type="text" required><br><br></p>
-        
-        <p><label for="senhapessoa">Senha:</label>
-        <input name="senhapessoa" type="number" required><br><br></p>
+body {
+    background: beige;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
 
-        <p><input name="manter logado" type="checkbox" value="sim"> manter logado<br><br></p>
+h1 {
+    color: #333;
+    font-size: 24px;
+}
 
-        <p><input name="btenviar" type="submit" valeu="cadastrar"> </p>
-
-        <p><a href="#URL"> Ainda não tem conta?</a></p>
-
-        <p><a href="#URL"> Esqueceu a senha?</a></p>
-
-    </body>
-</html>
+button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
